@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="form" stylesheets="@../css/login.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <Label alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="-1.0" prefHeight="73.0" prefWidth="600.0" style="-fx-background-color: rgba(11, 232, 129,1.0);" text="DASH BOARD" textAlignment="CENTER" textFill="#0a0909" wrapText="true">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="343.0" layoutY="157.0" onAction="#btnAddCustomerOnAction" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: rgba(241, 196, 15,0.65);" text="ADD CUSTOMER" textFill="#f5ecec">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="343.0" layoutY="225.0" onAction="#btnViewCustomerOnAction" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: rgba(241, 196, 15,0.65);" text="VIEW CUSTOMER" textFill="#f5ecec">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="326.0" fitWidth="342.0" layoutX="-2.0" layoutY="82.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/shop.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
